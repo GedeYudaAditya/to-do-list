@@ -24,6 +24,113 @@
   color: white;
 }
 
+.task-input{
+  width: 100%;
+  padding: 12px;
+  font-size: 25px;
+  border-width: 2px;
+  border-color: #e9e9e9;
+  background-color: #a0a0a0;
+  color: #000000;
+  border-style: dashed;
+  border-radius: 50px;
+  box-shadow: 0px 0px 3px rgba(66,66,66,.49);
+  text-shadow: 0px 0px 4px rgba(0,0,0,.85);
+  transition: all;
+  transition-duration: 2s;
+}
+
+/* .task-input:focus{
+  outline:none;
+} */
+.button-sub{
+  font-size: large;
+  font-weight: bolder;
+  margin-left: 20px;
+  width: 20%;
+  border-width: 2px;
+  border-color: #2a86ff;
+  background-color: #2255ff;
+  color: #f0f0f0;
+  border-style: dashed;
+  border-radius: 50px;
+  transition: all;
+  transition-duration: 1s;
+}
+
+.button-sub:hover{
+  transition: all;
+  transition-duration: 1s;
+  border-color: #00e271;
+  background-color: #00af09;
+  color: #0023bd;
+  border-style: solid;
+}
+
+.list{
+  width: 80%;
+  height: 60vh;
+}
+
+.table-list{
+  width: 100%;
+  /* border: #e9e9e9 1px solid; */
+  scrollbar-width: 1px;
+  /* height: 100%; */
+}
+
+
+.dcf-overflow-x-auto{
+  padding: 10px;
+  margin-top: 20px;
+  overflow-y:auto;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  table-layout: fixed;
+}
+
+.del-button{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 80%;
+  background-color: rgb(29, 201, 101);
+  color: #1e52e0;
+  font-size: 24px;
+  font-weight:900;
+  content: 'done';
+  border: none;
+  border-radius: 20px;
+  transition: all;
+  transition-duration: 1s;
+}
+
+.del-button:hover{
+  transition: all;
+  transition-duration: 1s;
+  content: '✓';
+  background-color: rgb(29, 138, 201);
+  color: #40ff9f;
+}
+
+.divider{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-content: space-around;
+}
+
+
+.task-input:focus{
+  outline:none;
+  transition: all;
+  transition-duration: 2s;
+  background-color: #282c34;
+  color: azure;
+}
+
 .App-link {
   color: #61dafb;
 }
